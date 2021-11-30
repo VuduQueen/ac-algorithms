@@ -33,7 +33,25 @@ console.log(result) // "ghimmnorstyy"
 
 **/
 
-function alphabetSoup(str) {
-	//Your code here
+function alphabetSoup(strng) {
+	// let strng = " This is my sentence";
+  	// console.log(strng);
+  
+	let strngSplit = strng.split(' ');
+	console.log(strngSplit);
+
+  	let strngJoin = strngSplit.join();
+  	console.log(strngJoin);
+  
+  	let strngChars = strngJoin.split('');
+  	console.log(strngChars);
+  
+  	let strngOrder =strngChars.sort();
+  	console.log(strngOrder);
 	
-}
+	  return strngOrder;
+ }
+ 
+ alphabetSoup('maybe i did this right?');
+
+
