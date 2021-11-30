@@ -52,4 +52,4 @@ function isBigger(a, b) {
 	}
 	
 }
-isBigger(3,5);
+isBigger(3,8);
