@@ -32,5 +32,17 @@ console.log(result) // false
 **/
 
 function isPrime(num) {
-	// Your code
+//let findPrime = num %2;
+
+for (let i = 2; i < num; i ++){
+	if ( num % 2 === 0 ){
+		console.log('true');
+	}else {
+		console.log('false');
+	}
 }
+return true
+}
+
+var result = isPrime(4);
+console.log(result);
