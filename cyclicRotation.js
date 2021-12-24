@@ -21,4 +21,5 @@ function cyclicRotation(arr, rotation){
         console.log(lastNumber, arr);
     }
 }
-cyclicRotation([3,8,9,7,6],3);
+var result = cyclicRotation([3,8,9,7,6],3);
+console.log(result;

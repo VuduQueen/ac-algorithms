@@ -28,6 +28,8 @@ function findLongestWord(str){
 		if (splitString[i].length > longestWord){
 			longestWord = splitString[i].length;
 		}
-	}console.log(longestWord);
+	}
+	return longestWord
 }
-findLongestWord("longest word test");
+var result = findLongestWord('longest word test')
+console.log(result);

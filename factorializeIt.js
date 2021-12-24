@@ -15,5 +15,5 @@ function factorializeIt(num) {
 	return newNum;
 }
 
-factorializeIt(5);
-console.log(factorializeIt(5));
+var result = factorializeIt(5);
+console.log(result);

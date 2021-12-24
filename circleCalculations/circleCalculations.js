@@ -4,13 +4,15 @@
 
 //Bonus 2: Make both numbers whole integers (aka round to the nearest integer) 
 
+
+
 function circleCalculation (radius) {
-	let area = 3.14(radius*radius);
-	let perimeter = 3.14(2*radius);
-	return "the area of gthe circle is " + area + " and the perimeter of the circle is " + perimeter+".";
-};
-circleCalculation(10);
- 
-var radius = Number(prompt('Please enter a radius'));
+	let radius = Number(prompt('Please enter a radius'));
+	return 2 * Math.PI * radius;
+}
+
+var result = circleCalculation(radius);
+console.log(result);
+
 
 

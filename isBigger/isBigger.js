@@ -52,4 +52,5 @@ function isBigger(a, b) {
 	}
 	
 }
-isBigger(3,8);
+var result = isBigger(3,8);
+console.log(result);

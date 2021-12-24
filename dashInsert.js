@@ -41,9 +41,11 @@ function dashInsert(num) {
 		 } else {
 			 console.log(resultStr);
 		}
-		//return 
+		
 	}
+	return resultStr
 }
 
 
-dashInsert(9789876986);
+var result = dashInsert(454793);
+console.log(result);
